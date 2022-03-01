@@ -1,0 +1,5 @@
+dist/
+node_modules/
+C:\\Users\\ahwhw3\\MendixProjects\\WebScanner-main/
+*.log
+.env

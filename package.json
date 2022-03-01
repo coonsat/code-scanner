@@ -1,0 +1,31 @@
+{
+  "name": "codescanner",
+  "widgetName": "Codescanner",
+  "version": "1.0.0",
+  "description": "Test for intergration of open source code scanner",
+  "copyright": "2020 Siemens Industry Software",
+  "author": "Andrew",
+  "config": {
+    "projectPath": "C:\\Users\\ahwhw3\\MendixProjects\\WebScanner-main_2/",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": "3000"
+  },
+  "packagePath": "pilatus",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:server --open",
+    "dev": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^8.12.0"
+  },
+  "dependencies": {
+    "@zxing/library": "^0.18.3",
+    "classnames": "^2.2.6"
+  }
+}

@@ -1,0 +1,15 @@
+.codescanner {
+    position: relative;
+}
+
+#video, #central-line {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#central-line {
+    border-bottom: 2px solid black;
+    z-index: 10;
+}
